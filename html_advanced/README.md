@@ -1,1 +1,1 @@
-Building a School page
+A project about public speaking <img src="images/IMG_3377-3.jpg"><alt="Public speaking>
