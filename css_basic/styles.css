@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+header{background-color: rgb(128, 240, 128)40, 193);
+}
+
+main{
+    display: flex; 
+    flex-direction: row;
+    flex:auto;
+}
+
+main article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+main aside{
+    flex: 1; 
+    overflow-y: auto;
+}
+
+header div {
+    display: flex;
+    height:1px;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 1px;
+}
+
+table, th, tr, td{
+    border: 2px solid black;
+    font-weight: bold; 
+}
+aside p{
+    background-color: rgb(7, 126, 237);}
+
+aside{
+    background-color: whitesmoke;
+}
+
+table{
+    width: 400px;
+    height: 250px;
+}
+
+footer { 
+    background-color: rgb(128, 240, 156); }
+
+footer p a{
+    background-color: rgb(162, 236, 2);
+}
